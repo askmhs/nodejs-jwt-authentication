@@ -50,6 +50,7 @@ server.get('/', (req, res) => {
  * Call routers
  */
 require('./src/Routes/User.route')(server);
+require('./src/Routes/Auth.route')(server);
 
 /**
  * Starting server
